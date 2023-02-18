@@ -1,0 +1,12 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.bg-nav-primary{
+    background-color: rgb(198, 248, 198);
+}
+.width-input{
+    width: 18rem;
+    height: 20rem;
+    border: 2px solid rgba(17, 17, 17, 0.1);
+    border-radius: 5px;
+}
