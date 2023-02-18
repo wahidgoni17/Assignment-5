@@ -11,7 +11,7 @@ document.getElementById('calculate-triangle').addEventListener('click', function
 
     const triangleAreafield = getTextElementValueById('triangle-area-field')
 
-    const newTriangleArea = '1. Triangle ' + triangleArea + ' cm²'
+    const newTriangleArea = '1. Triangle ' + triangleArea.toFixed(2) + ' cm²'
 
     setTextElementValueById('triangle-area-field', newTriangleArea)
     triangleAreafield.innerText = ""
@@ -30,7 +30,7 @@ document.getElementById('calculate-rectangle').addEventListener('click', functio
 
     const rectangleAreafield = getTextElementValueById('rectangle-area-field')
 
-    const newRectangleArea = '2. Rectangle ' + rectangleArea + ' cm²'
+    const newRectangleArea = '2. Rectangle ' + rectangleArea.toFixed(2) + ' cm²'
 
     setTextElementValueById('rectangle-area-field', newRectangleArea)
 })

@@ -9,3 +9,14 @@ document.getElementById('calculate-parallelogram').addEventListener('click', fun
 
     setTextElementValueById('parallelogram-area-field' , newparallelogramArea)
 })
+document.getElementById('calculate-rhombus').addEventListener('click', function(){
+    const rhombusSideOne = 16
+    const rhombusSideTwo = 8
+    const rhombusArea = 0.5 * rhombusSideOne * rhombusSideTwo
+
+    const rhombusAreafield = getTextElementValueById('rhombus-area-field');
+
+    const newrhombusArea = "4. Rhombus " + rhombusArea + " cm²"
+
+    setTextElementValueById('rhombus-area-field', newrhombusArea)
+})
