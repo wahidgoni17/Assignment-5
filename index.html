@@ -25,10 +25,10 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="container-fluid d-flex flex-wrap flex-xl-nowrap  align-items-center">
     <div class="container mt-5">
         <div class="row g-2">
-            <div class="card col text-center" style="width: 18rem;">
+            <div class="card col-12 col-xl-3 text-center" style="width: 18rem;">
                 <img src="./images/triangle.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title fw-bold">Triangle</h5>
@@ -38,7 +38,7 @@
                   <button id="calculate-triangle" class="btn btn-primary px-5">Calculate</button>
                 </div>
             </div>
-            <div class="card col text-center" style="width: 18rem;">
+            <div class="card col-12 col-xl-3 text-center" style="width: 18rem;">
                 <img src="./images/rectangle.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title fw-bold">Rectangle</h5>
@@ -48,7 +48,7 @@
                   <button id="calculate-rectangle" class="btn btn-primary px-5">Calculate</button>
                 </div>
             </div>
-            <div class="card col text-center" style="width: 18rem;">
+            <div class="card col-12 col-xl-3 text-center" style="width: 18rem;">
                 <img src="./images/parallelogram.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title fw-bold">Parallelogram</h5>
@@ -57,22 +57,9 @@
                   <button id="calculate-parallelogram" class="btn btn-primary px-5">Calculate</button>
                 </div>
             </div>
-            <div class="col">
-                <div class="width-input pt-2">
-                    <h4 class="text-center">Area Calculation</h4>
-                    <ul type="none">
-                        <li id="triangle-area-field"></li>
-                        <li id="rectangle-area-field"></li>
-                        <li id="parallelogram-area-field"></li>
-                        <li id="rhombus-area-field"></li>
-                        <li id="pentagon-area-field"></li>
-                        <li id="ellipse-area-field"></li>
-                    </ul>
-                </div>
-            </div>
         </div>
         <div class="row">
-            <div class="card col text-center" style="width: 18rem;">
+            <div class="card col-12 col-xl-3 text-center" style="width: 18rem;">
                 <img src="./images/rhombus.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title fw-bold">Rhombus</h5>
@@ -81,7 +68,7 @@
                   <button id="calculate-rhombus" class="btn btn-primary px-5">Calculate</button>
                 </div>
             </div>
-            <div class="card col text-center" style="width: 18rem;">
+            <div class="card col-12 col-xl-3 text-center" style="width: 18rem;">
                 <img src="./images/pentagon.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title fw-bold">Pentagon</h5>
@@ -90,7 +77,7 @@
                   <button id="calculate-pentagon" class="btn btn-primary px-5">Calculate</button>
                 </div>
             </div>
-            <div class="card col text-center" style="width: 18rem;">
+            <div class="card col-12 col-xl-3 text-center" style="width: 18rem;">
                 <img src="./images/ellipse.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title fw-bold">Ellipse</h5>
@@ -99,9 +86,21 @@
                   <button id="calculate-ellipse" class="btn btn-primary px-5">Calculate</button>
                 </div>
             </div>
-            <div class="col"></div>
         </div>
     </div>
+    <div class="col-12 col-xl-3">
+      <div class="width-input pt-2">
+          <h4 class="text-center text-decoration-underline">Area Calculation</h4>
+          <ul type="none">
+              <li id="triangle-area-field"></li>
+              <li id="rectangle-area-field"></li>
+              <li id="parallelogram-area-field"></li>
+              <li id="rhombus-area-field"></li>
+              <li id="pentagon-area-field"></li>
+              <li id="ellipse-area-field"></li>
+          </ul>
+      </div>
+  </div>
     </main>
     <script src="script/common.js"></script>
     <script src="script/triangle&rectangle.js"></script>
